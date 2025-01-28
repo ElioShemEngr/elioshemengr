@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elioshem.dev</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.1.0/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <!-- Barra de navegación flotante -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <!-- Logo personal -->
+            <a href="#" class="logo">
+                <img src="assets/img/logo.svg" alt="elioshem logo">
+            </a>
+            
+            <!-- Menú de navegación -->
+            <ul class="nav-links">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <!-- Botón tema -->
+            <button class="theme-toggle">
+                <span class="toggle-icon">🌓</span>
+            </button>
+        </div>
+    </nav>
+
+    
+    <!-- Contenido Principal y Presentacion -->
+    <section class="hero-section">
+        <div class="principal-title">
+            <h1>Full-Stack Developer...</h1>
+        </div>
+        <div class="hero-card">
+            <!-- Columna de la foto -->
+            <div class="hero-photo">
+                <img src="assets/img/profile.jpg" alt="Foto de elioshem.dev">
+            </div>
+            
+            <!-- Columna del contenido -->
+            <div class="hero-content">
+                <h1 class="hero-title">Hola, soy <span class="highlight">elioshem</span></h1>
+                <p class="hero-text">Desarrollador Full Stack apasionado por la tecnologia y por crear soluciones digitales innovadoras, optimizadas para ofrecer una experiencia de usuario excepcional y centradas en la funcionalidad.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#skills" class="btn secondary">My Skills</a>
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+    <!-- Nueva sección de Skills -->
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">My Skills</h2>
+
+        <!-- Frontend Category -->
+        <div class="skills-category">
+            <h3 class="category-title">Frontend Development</h3>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <ion-icon name="logo-html5"></ion-icon>
+                    <h3>HTML5</h3>
+                    <p class="skill-description">Lenguaje de marcado para estructurar y presentar contenido web de forma semántica.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <ion-icon name="logo-css3"></ion-icon>
+                    <h3>CSS3</h3>
+                    <p class="skill-description">Estilos y diseño visual para crear interfaces atractivas y responsivas.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <ion-icon name="logo-javascript"></ion-icon>
+                    <h3>JavaScript</h3>
+                    <p class="skill-description">Programación dinámica e interactiva del lado del cliente.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <ion-icon name="logo-react"></ion-icon>
+                    <h3>React</h3>
+                    <p class="skill-description">Biblioteca para construir interfaces de usuario interactivas y reutilizables.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Backend Category -->
+        <div class="skills-category">
+            <h3 class="category-title">Backend Development</h3>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <ion-icon name="server-outline"></ion-icon>
+                    <h3>Node.js</h3>
+                    <p class="skill-description">Entorno de ejecución para crear aplicaciones backend escalables.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <ion-icon name="logo-python"></ion-icon>
+                    <h3>Python</h3>
+                    <p class="skill-description">Lenguaje versátil para desarrollo backend y análisis de datos.</p>
+                </div>
+                
+                
+                <div class="skill-card">
+                    <ion-icon name="logo-buffer"></ion-icon>
+                    <h3>SQL</h3>
+                    <p class="skill-description">Gestión y consulta de bases de datos relacionales.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <ion-icon name="leaf-outline"></ion-icon>
+                    <h3>MongoDB</h3>
+                    <p class="skill-description">Base de datos NoSQL para datos flexibles y escalables.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Tools & Extras Category -->
+        <div class="skills-category">
+            <h3 class="category-title">Development Tools</h3>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <ion-icon name="git-branch-outline"></ion-icon>
+                    <h3>Git</h3>
+                    <p class="skill-description">Sistema de control de versiones para gestión de código fuente.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <h3>GitHub</h3>
+                    <p class="skill-description">Plataforma de colaboración y hospedaje de repositorios Git.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <ion-icon name="terminal-outline"></ion-icon>
+                    <h3>Command Line</h3>
+                    <p class="skill-description">Interfaz de línea de comandos para control y automatización.</p>
+                </div>
+
+                <div class="skill-card">
+                    <ion-icon name="logo-android"></ion-icon>
+                    <h3>Kotlin</h3>
+                    <p class="skill-description">Lenguaje moderno para desarrollo de aplicaciones Android nativas.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Nueva sección de Projects -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="browser-mockup">
+                    <div class="browser-buttons">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="browser-address">
+                        <div class="address-bar">www.project1.com</div>
+                    </div>
+                </div>
+                <div class="project-preview">
+                    <img src="path/to/project1-screenshot.jpg" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>E-commerce Website</h3>
+                    <p>Online store built with React and Node.js</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Visit Site</a>
+                        <a href="#" class="project-link">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="browser-mockup">
+                    <div class="browser-buttons">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="browser-address">
+                        <div class="address-bar">www.project2.com</div>
+                    </div>
+                </div>
+                <div class="project-preview">
+                    <img src="path/to/project2-screenshot.jpg" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Task Manager</h3>
+                    <p>Project management app with React and Firebase</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Visit Site</a>
+                        <a href="#" class="project-link">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="browser-mockup">
+                    <div class="browser-buttons">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="browser-address">
+                        <div class="address-bar">www.project3.com</div>
+                    </div>
+                </div>
+                <div class="project-preview">
+                    <img src="path/to/project2-screenshot.jpg" alt="Project 3">
+                </div>
+                <div class="project-info">
+                    <h3>Social Web</h3>
+                    <p>Project create social web with angular and Firebase</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Visit Site</a>
+                        <a href="#" class="project-link">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Nueva sección de Courses -->
+    <section>
+        <section id="courses" class="courses-section">
+            <h2 class="section-title">Courses & Certifications</h2>
+            
+            <div class="courses-container">
+                <!-- Course 1 -->
+                <div class="course-card">
+                    <div class="course-badge">
+                        <ion-icon name="school-outline"></ion-icon>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-platform">Udemy</span>
+                        <h3 class="course-title">Modern Web Development with React</h3>
+                        <p class="course-description">
+                            Complete course covering React fundamentals, hooks, Redux, and best practices.
+                        </p>
+                        <div class="course-meta">
+                            <span class="course-date">
+                                <ion-icon name="calendar-outline"></ion-icon>
+                                Completed: Jan 2024
+                            </span>
+                            <span class="course-duration">
+                                <ion-icon name="time-outline"></ion-icon>
+                                40 hours
+                            </span>
+                        </div>
+                        <div class="course-footer">
+                            <span class="course-instructor">
+                                <ion-icon name="person-outline"></ion-icon>
+                                John Doe
+                            </span>
+                            <a href="#" class="course-credential">
+                                View Credential
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Course 2 -->
+                <div class="course-card">
+                    <div class="course-badge">
+                        <ion-icon name="logo-google"></ion-icon>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-platform">Google</span>
+                        <h3 class="course-title">Google Cloud Professional Developer</h3>
+                        <p class="course-description">
+                            Professional certification for cloud architecture and development.
+                        </p>
+                        <div class="course-meta">
+                            <span class="course-date">
+                                <ion-icon name="calendar-outline"></ion-icon>
+                                Completed: Dec 2023
+                            </span>
+                            <span class="course-duration">
+                                <ion-icon name="time-outline"></ion-icon>
+                                60 hours
+                            </span>
+                        </div>
+                        <div class="course-footer">
+                            <span class="course-instructor">
+                                <ion-icon name="business-outline"></ion-icon>
+                                Google
+                            </span>
+                            <a href="#" class="course-credential">
+                                View Credential
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Puedes agregar más cursos siguiendo la misma estructura -->
+            </div>
+        </section>
+    </section>
+
+
+     <!-- Nueva sección de Contact -->
+     <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact</h2>
+        
+        <div class="contact-container">
+            <!-- Información de contacto -->
+            <div class="contact-info">
+                <h3>Contactame Ahora!</h3>
+                <p class="contact-description">
+                    Estoy listo para nuevas oportunidades, colaboraciones y proyectos interesantes.
+                    ¡No dudes en contactarme! 
+                </p>
+                
+                <!-- Lista de métodos de contacto -->
+                <div class="contact-methods">
+                    <div class="contact-item">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <a href="mailto:hello@elioshem.dev">engr.elioshem@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>Ucayali, Peru</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Redes sociales -->
+                <div class="social-links">
+                    <a href="#" class="social-link" title="GitHub">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="#" class="social-link" title="Twitter">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="#" class="social-link" title="Instagram">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Formulario de contacto -->
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required 
+                               placeholder="Enter your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required 
+                               placeholder="Enter your email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required 
+                               placeholder="What is this about?">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required 
+                                  placeholder="Your message here..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        Send Message
+                        <ion-icon name="paper-plane-outline"></ion-icon>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
